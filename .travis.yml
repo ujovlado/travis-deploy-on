@@ -20,5 +20,4 @@ jobs:
           on:
             tags: true
             branch: master
-            repo: keboola/kbc-ui
       if: branch = master OR tag IS present
